@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    border-bottom:4px dotted brown;
+    border-right:8px dashed black;
+    border-left:8px dashed black;
+    border-top:4px dotted brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:4px 4px lightgray;
+    background-color: burlywood; 
+}
+h3{
+    background-color:burlywood;
+}
+h2{
+    background-color:rgb(194, 145, 11);
+}
+p{
+    background-color:blanchedalmond;
+}
+ul{
+    background-color:blanchedalmond;
+}
+.attention{
+    border:8px solid brown;
+    background-color:burlywood;
+    padding:0.5rem;
+    display:flex;
+    flex-direction:column;
+}
+.attention img{
+    width:100%;
+}
+.attention p{
+    font:small-caps bold;
+    text-align:center;
+}
