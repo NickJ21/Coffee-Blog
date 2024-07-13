@@ -54,15 +54,18 @@ h2,h3{
     text-align:center;
 }
 /*header*/
-header{
+.header-init{
     background-image:url(./img/banner.jpg);
     background-size:cover;
     text-align:center;
     color:white;
     height:400px;
 }
-header h1{
-    font-family:"coneria script";
+.header-secondary{
+    background-color: black;
+    text-align:center;
+    color:white;
+    height:100px;
 }
 .header-flex{
     display:flex;
@@ -83,8 +86,99 @@ header h1{
 .main-flex{
     display:flex;
 }
+.blog-container{
+    width:65%;
+    margin-right:20px;
+}
 /*section*/
 .course-item{
     border-bottom:1px solid gray;
     margin-bottom: 20px;
+}
+.courses-container{
+    width:35%;
+    margin-left:20px;
+}
+/*contact*/
+.contact-container{
+    display:flex;
+    flex-direction:column;
+}
+.img-container{
+    display:flex;
+    flex-direction:column;
+}
+.form-container{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    margin-top:-40px;
+    background-color:white;
+}
+.input-container{
+    margin-bottom:10px;
+}
+.input-container input, 
+.input-container textarea{
+    width:70%;
+    padding:3px;
+}
+.input-container label{
+    display:inline-block;
+    width:100px;
+    text-align:right;
+}
+/*about*/
+.img-about{
+    width:70%;
+    display:flex;
+    flex-direction:row;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    margin-top:-10px
+}
+.about-header{
+    text-align:center;
+}
+.about-text{
+    text-align:left;
+    margin-bottom:20px;
+}
+.footer-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    height:100px;
+    align-items:center;
+}
+.footer-init{
+    background-color: black;
+    text-align:center;
+    color:white;
+    height:100px;
+}
+/*courses*/
+.course-img{
+    width:40%;
+    float:left;
+    object-fit:cover;
+    margin-right:20px;
+}
+.course-section1{
+    border-bottom:1px solid gray;
+    padding-bottom:5px;
+    font-weight: bolder;
+    letter-spacing:1px;
+}
+.course-section2{
+    font-weight:bold;
+}
+.course{
+    display:flex;
+    border:2px solid gray;
+    margin:5px;
+}
+.course-info{
+    width:70%;
 }
